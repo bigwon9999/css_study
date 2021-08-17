@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #parent, #other{
+        border:5px solid tomato;
+      }
+      #parent{
+        position: relative;
+      }
+      #me{
+        background-color: black;
+        color:white;
+        position: absolute;
+        /* left:0; */
+        /* top:0; */
+        /* 부모가 static, offset 있을 시 : html 엘리먼트 위치를 기준으로해서 잡힘 */
+        /* 없고 absolute면 부모 위치 기준, 부모와 링크가 끊기면서 크기가 무관, width, height로
+        직접 크기를 지정해줘야 함.  */
+        /* 위에 부모가 position이 relative일 때는 그걸 기준으로 오프셋이 정해짐 */
+      }
+      </style>
+  </head>
+  <body>
+    <div id="other">other</div>
+    <div id="parent">
+      parent
+      <div id="me">me</div>
+    </div>
+  </body>
+</html>

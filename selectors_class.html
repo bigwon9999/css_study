@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  li{
+    color : red;
+    text-decoration : underline;
+    /* 딱 한 코드만 있으면 세미콜론 없어도 됨
+    구분해주는 구분자 역할 */
+  }
+  #select{
+    font-size:50px;
+  }
+  .deactive{
+    text-decoration : line-through;
+  }
+  </style>
+</head>
+  <body>
+    <h1 class="deactive">수업의 순서</h1>
+    <ul>
+      <li class="deactive">HTML</li>
+      <li id="select">CSS</li>
+      <li class="deactive">JavaScript</li>
+      <!-- class 쓰는 이유 동일한 분류끼리 묶어서 코드 간단하게
+    관리할 수 있게 학년,반 개념 id는 학번 개념-->
+  </ul>
+  </body>
+</html>

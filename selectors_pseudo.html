@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    a:link{
+      color:black;
+    }
+    a:visited{
+      color:red;
+    }
+    /* visited는 보안적문제로 일부 속성만 사용 가능 */
+    a:hover{
+      color:yellow;
+    }
+    /* 마우스를 올려놨을 때 */
+    /* 마우스를 클릭해도 active가 적용이 안댐
+    클릭한 상태로 빠져나오면 green인데
+    왜냐? active, hover 둘다 적용된 상태인데
+    뒤에 선언을 우선시 하기 때문에 hover가 적용됨
+    순서를 바꿔주면 됨*/
+    a:active{
+    color:green;
+  }
+  /* 마우스를 누르고 있을 때 변함
+  마치 클래스처럼 동작해서 가상클래스선택자 */
+  a:focus{
+    color:white;
+  }
+  input:focus{
+    background-color:black;
+    color:white;
+  }
+  /* 탭 키로 포커싱, 엔터치면 클릭됨 */
+  </style>
+</head>
+  <body>
+    <a href="https://opentutorials.org">방문함</a>
+    <a href="https://a.a">방문안함</a>
+  </body>
+</html>

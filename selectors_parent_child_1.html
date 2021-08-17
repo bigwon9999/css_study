@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  ul li{
+    color : red
+  }
+  #lecture>li{
+    border:1px solid red;
+    color:blue;
+
+  }
+  /* 꺽쇠로 직계 li만 적용, color property는 모두 바꿔버림 */
+  ul,ol{
+    background-color:powderblue;
+  }
+  </style>
+</head>
+  <body>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    <ol id="lecture">
+      <li>HTML</li>
+      <li>CSS
+        <ol>
+          <li>selector</li>
+          <li>declaration</li>
+        </ol>
+      </li>
+      <li>JavaScript</li>
+    </ol>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE>
+<!-- display & flex-direction -->
+<html>
+<head>
+    <style>
+      .container{
+        background-color: powderblue;
+        height:300px;
+        /* 블록 레벨 엘리먼트는 쌓이는데 height 만큼 안 차니까 빈 게 파우더 블루로 보임*/
+        display:flex;
+        /* 플렉스의 출발점: 겉에다가(container) flex적기 */
+        flex-direction : column;
+        /* default:row, etc) column, column-reverse, row-reverse */
+
+      }
+      .item{
+        background-color: tomato;
+        color:white;
+        border:1px solid white;
+        /* flex-grow:1; */
+        /* 파우더 블루 색의 여백에 맞게 n빵으로 꽉 채우기
+        여백을 몇만큼 갖겠다. */
+      }
+      .item:nth-child(1){
+        flex-basis: 150px;
+        flex-shrink:1;
+        /* 3분의1만큼 고통 분담 */
+      }
+      .item:nth-child(2){
+        /*아이템 각각을 선택할 수 있게 하는 선택자 */
+        /* flex-basis:200px; flex-direction에 맞게 크기 조정*/
+        /* flex-grow:2; */
+        /* cascading에 의해 우선 순위가 높기 때문에 커짐 1:2:1:1:1 6분의 2*/
+        flex-basis:150px;
+        /* 화면을 줄이면 컨테이너보다 아이템들이 작아지게 되는 경향*/
+        flex-shirink:2;
+        /* 0: 화면을 줄여도 컨테이너 크기가 아이템보다 작아졌음에도 불구하고
+        안 줄어져 줄어들지 않는다 */
+        /* 3분의 2만큼 고통 분담 */
+      }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <!-- 한 줄로 표현되는 이유 div 태그들은 화면 전체를 씀
+  =블록레벨 엘리먼트 -->
+  </div>
+</dody>
+</html>
