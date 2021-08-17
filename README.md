@@ -52,7 +52,7 @@ padding, margin, width ...
 
 :content-box;
 
-# 마진겹칩현상
+# margin collapse
 
 마진이 겹치면 큰 거로 적용됨
 
