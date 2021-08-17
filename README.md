@@ -109,8 +109,8 @@ header - nav, main, aside(ad) - footer
 
 ## webfont
 
-구글의 웹폰트로 다운, 적용 가능 - 폰트 용량을 고려하자
+구글의 <a href="https://fonts.google.com/">웹폰트</a>로 다운, 적용 가능 - 폰트 용량을 고려하자
 
-## stylish
+## Stylish
 
-커스터마이징한 것을 공유해 적용 가능
+구글의 <https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en-US">Stylish</a> 앱 다운으로 커스터마이징한 것을 공유해 적용 가능
