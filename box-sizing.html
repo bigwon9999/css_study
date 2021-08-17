@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    *{
+      /* 아스터리스크: 웹 모든 페이지에 있는 선택자 */
+      box-sizing:border-box;
+    }
+    div{
+      margin:10px;
+      width:150px;
+      /* 보더 값이 포함되어 두 div는 다른크기 */
+      /* box-sizing:content-box; */
+      /* 컨텐츠의 크기만큼 width와 height값이 지정이 된다 */
+      /* etc) borde-box : 보더의 경계가 동일해진다 */
+    }
+    #small{
+      border:10px solid black;
+    }
+    #large{
+        border:30px solid black;
+    }
+  </style>
+</head>
+  <body>
+    <div id="small">hello</div>
+    <div id="large">hello</div>
+  </body>
+</html>
