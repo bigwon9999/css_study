@@ -101,7 +101,7 @@ header - nav, main, aside(ad) - footer
 
 ## bracket
 
-: 편리한 에디터 (나중에 설치해보기)
+: <a href="http://brackets.io/">편리한 에디터</a> (나중에 설치해보기)
 
 ## 선택자 
 
