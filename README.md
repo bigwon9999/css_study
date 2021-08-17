@@ -6,63 +6,63 @@
 
 - html 정보를 웹 페이지를 좀 더 아름답게 꾸미는 기능을 함
 
-# 선택자 
+## 선택자 
 1. 태그
 2. id : 학번 기능, 하나하나 개별 관리, 어느 딱 한 가지에만 효과를 주고 싶을 때, style 태그에 #
 3. class : 반 기능, 그룹핑해 관리하기 쉽게 style 태그에 .
 4. 부모 자식
 5. 가상 클래스 선택자 : 링크를 꾸며주고, 클래스처럼 동작하기 때문에 가상 클래스 선택자임
 
-# font-size
+## font-size
 1. px : 고정
 2. em, rem : 가변
 
 사용자에게 권리를 준다는 측면, 정보를 자기 취향대로 볼 수 있게 배려
 웹페이지 분석 우클릭: 검사
 
-# color
+## color
 
 1. color name
 2. rgb
 3. hexa
 
-# inheritance
+## inheritance
 
 전체를 부모로 다 적용하고 하나만 변경시키는게 효율적
 
 상속이 되는 속성이 있고, 안되는 속성이 있음에 주의
 
-# cascading
+## cascading
 
 하나의 태그에 여러 css가 중첩되면 우선 순위는?
 
 style 속성 > id 선택자 > class 선택자 > li(tag) 선택자 
 
-# inline vs block-level-tag
+## inline vs block-level-tag
 
 인라인은 화면 전체를 쓰지 않고 자기 자신 크기만큼 사용
 
-# box
+## box
 
 css에서 가장 많이 사용하는 속성들
 
 padding, margin, width ...
 
-# box-sizing : border-box;
+## box-sizing : border-box;
 
 :content-box;
 
-# margin collapse
+## margin collapse
 
 마진이 겹치면 큰 거로 적용됨
 
-# position 
+## position 
 1. static : 위치와 관련된 설정을 하지 않은 상태(left, right, ..이런거 설정 X)
 2. relative : 설정한 상태, 상대적
 3. absolute : 절대적
 4. fixed : 고정
 
-# flex 
+## flex 
 
 container 와 item
 
@@ -77,13 +77,13 @@ container 와 item
 
 .item:nth-child(2){} - 아이템 각각을 선택할 수 있게 하는 선택자
 
-# holyGrail layout
+## holyGrail layout
 
 성배 레이아웃
 
 header - nav, main, aside(ad) - footer
 
-# multicolumn
+## multicolumn
 
 신문처럼..열이 여러개
 
