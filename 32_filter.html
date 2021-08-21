@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    img{
+      transition: all 1s;
+      /* 모든 효과에 대해서 1초동안 부드럽게 전환 */
+    }
+    img:hover{
+      -webkit-fileter: grayscale(100%) blur(1px);
+      /* 벤더프리픽스 크롬,사파리 */
+      -o-filter: grayscale(100%) blur(1px);
+      /* 벤더프리픽스 오페라 */
+      filter: grayscale(100%) blur(1px);
+      /* 모든 웹브라우저 */
+    }
+    h1{
+      -webkit-fileter: blur(1px);
+      /* 벤더프리픽스 크롬,사파리 */
+      -o-filter: blur(1px);
+      /* 벤더프리픽스 오페라 */
+      filter: blur(1px);
+      /* 모든 웹브라우저 */
+    }
+  </style>
+</head>
+  <body>
+    <h1>mountain</h1>
+    <img src="../css/imgs/rgbh.png" alt="">
+  </body>
+</html>
+<!-- bennettfeely.com/filters - css filters playgroud
+codepen 사이트 돋보기 filter : css필터를 이용해 만든 여러가지
+효과를 볼 수 있음 이러한 잠재적인 효과를 낼 수 있구나 느껴보고
+여러가지 효과를 혼합해 자기 것으로 만들어 보는 것도 좋다-->
