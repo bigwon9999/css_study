@@ -1,0 +1,38 @@
+<!-- 단위 -->
+<!-- scale의 값으로는 숫자가온다 rotate는 angle 이런 식-->
+<!-- transform origin -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  h1{
+    background-color:deepskyblue;
+    color:white;
+    display:inline-block;
+    padding:5px;
+    font-size:3rem;
+    margin:100px;
+    /* scaleX(0.5) scaleY(0.5); = */
+    /* 0.5 :반으로 두배를 줄였고, X축 기준 변형
+    etc) scaleY도 밑에쓰면 밑에 있는 것이 위에 있는것을 덮어씌움
+    여러개 효과를 하나의 엘리먼트에 주고 싶으면 한 줄에 쓰기
+
+    https://opentutorials.org/module/2367/13684
+    생활코딩 참조하면 여러개 transform 효과를 볼 수 있음
+    2차원 transform, 3차원 transform이 있음
+    codepen.io 참조 생코 magic_animation.. transform library ..*/
+  }
+  h1:hover{
+    transform:
+    scale(1.5);
+    transform-origin: left bottom;
+    /* 100% 100% */
+    transition:all 1s;
+  }
+  </style>
+</head>
+  <body>
+    <h1>Hello Transform!</h1>
+  </body>
+</html>

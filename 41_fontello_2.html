@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/fontello.css">
+      <link rel="stylesheet" href="css/animation.css">
+  <style>
+    body{
+      font-size:100px;
+    }
+    #test:before{
+      content:"s",
+      color:red;
+      font-size:30px;
+    }
+    #test:after{
+      content:"e"
+    }
+    #kakao{
+      font-family:"Fontello";
+    }
+
+  </style>
+</head>
+  <body>
+    <div id="test">
+      A</div>
+      <div id="kakao">  &#xe800;</div>
+      <i class="icon-emo-thumbsup animate-spin"></i>
+  </body>
+</html>
+<!-- fontello.css 에 icon-emo-~ 검색해보면 있다
+class 설정한 거는 font-family를 fontello로 한다고
+fontello.css에 적어놨기 때문에 안적어도 되는 거
+font-face : 여러개 폰트 파일 로드 브라우저 마다 웹 폰트
+지원하는 규격 표준이 다르기 때문에 여러개의 것들은 다 로드하고
+브라우저는 포맷에 해당되는 폰트 파일을 받아서 처리
+이렇게 여러개를 같이 로드 -->

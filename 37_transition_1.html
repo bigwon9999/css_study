@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    a{
+      font-size:3rem;
+      display:inline-block;
+      transition:font-size 1s, transform:0.1s;
+      transition-delay:1s;
+      /* transition : all 1s; */
+      /* transition-property: all;
+      transition-duration: 1s; */
+      /* 장면 전환 효과를 누구에게 줄 것인가, */
+      /* 얼마동안 전환할 것인가 */
+      /* transition-property: font-size transform; */
+    }
+    a:active{
+      /* 클릭했을 때 가상 선택자*/
+      transform : translate(20px, 20px);
+      font-size:2rem;
+    }
+  </style>
+</head>
+  <body>
+    <a href="#">Click</a>
+  </body>
+</html>
